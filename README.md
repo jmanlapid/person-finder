@@ -22,6 +22,17 @@ First, run the development server:
 npm run dev
 # or
 yarn dev
+```
+
+Then, run the tests
+
+```bash
+npx cypresss open
+# or
+yarn run cypress open
+```
+
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
