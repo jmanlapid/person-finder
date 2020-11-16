@@ -39,6 +39,7 @@ export default createSlice({
     builder.addCase(queryPersonByName.fulfilled, (state, action) => {
       state.loading = "succeeded";
       // TODO: James - fix this type
+      //@ts-ignore
       state.entities = action.payload;
     });
 
